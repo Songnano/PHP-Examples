@@ -1,0 +1,54 @@
+== Example Wiki Page ==
+
+Welcome to this example wiki page! This page demonstrates basic MediaWiki syntax.
+
+=== Formatting Text ===
+
+* ''Italic text'' – Use two single quotes: ''italic''
+* '''Bold text''' – Use three single quotes: '''bold'''
+* '''''Bold and italic text''''' – Use five single quotes: '''''bold and italic'''''
+
+=== Links ===
+
+* [[Main Page]] – Internal link to another wiki page
+* [https://www.wikipedia.org Wikipedia] – External link
+
+=== Lists ===
+
+* Bullet list item 1
+* Bullet list item 2
+** Sub-item 1
+** Sub-item 2
+
+# Numbered list item 1
+# Numbered list item 2
+
+=== Images ===
+
+[[File:Example.jpg|thumb|250px|Caption for the example image]]
+
+=== Tables ===
+
+{| class="wikitable"
+|-
+! Header 1 !! Header 2 !! Header 3
+|-
+| Row 1, Col 1 || Row 1, Col 2 || Row 1, Col 3
+|-
+| Row 2, Col 1 || Row 2, Col 2 || Row 2, Col 3
+|}
+
+=== Templates ===
+
+{{Infobox
+| title = Example Infobox
+| image = Example.jpg
+| caption = This is an example
+| data1 = Value 1
+| data2 = Value 2
+}}
+
+=== Categories ===
+
+[[Category:Examples]]
+[[Category:Wiki Text]]
